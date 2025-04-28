@@ -1,0 +1,18 @@
+{
+  "name": "drop-zone-webshop",
+  "version": "1.0.0",
+  "description": "Modern webshop for Drop Zone featuring Dutch black licorice with drone delivery",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@react-google-maps/api": "^2.17.1",
+    "react-router-dom": "^6.14.2",
+    "styled-components": "^6.0.8",
+    "vite": "^4.3.9"
+  }
+}
