@@ -1,0 +1,14 @@
+This directory contains the following images for the Instagram services website:
+
+- hero-image.png: Main hero section image showing Instagram growth visualization
+- hero-bg.jpg: Background image for the hero section
+- account-management.jpg: Image representing Instagram account management service
+- growth-service.jpg: Image representing follower growth service
+- content-creation.jpg: Image representing content creation service
+- instagram-ads.jpg: Image representing Instagram ads service
+- client-1.jpg: Testimonial client image (fashion influencer)
+- client-2.jpg: Testimonial client image (business owner)
+- client-3.jpg: Testimonial client image (travel blogger)
+- about-image.jpg: Team or company image for the about section
+
+Please replace these placeholder descriptions with actual images for your Instagram services website.
