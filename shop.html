@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - InstaGrowth</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content="Shop for Instagram growth tools, guides, and premium services to boost your social media presence.">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Insta<span>Growth</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#pricing">Pricing</a></li>
+                    <li><a href="shop.html" class="active">Shop</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+            <div class="cart-icon">
+                <a href="#" id="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Shop Hero Section -->
+    <section class="hero shop-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Instagram Growth Products</h1>
+                <p>Boost your Instagram presence with our premium tools, guides, and services.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section class="shop">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Products</h2>
+                <p>Tools and resources to elevate your Instagram strategy</p>
+            </div>
+            
+            <!-- Product Categories -->
+            <div class="shop-categories">
+                <button class="category-btn active" data-category="all">All Products</button>
+                <button class="category-btn" data-category="tools">Growth Tools</button>
+                <button class="category-btn" data-category="guides">Guides & E-Books</button>
+                <button class="category-btn" data-category="templates">Content Templates</button>
+            </div>
+            
+            <!-- Products Grid -->
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="tools">
+                    <div class="product-image">
+                        <img src="images/product-hashtag-tool.jpg" alt="Hashtag Research Tool">
+                    </div>
+                    <div class="product-details">
+                        <h3>Hashtag Research Tool</h3>
+                        <p>Find the most effective hashtags for your niche to increase your content reach.</p>
+                        <div class="product-price">$49.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="1" data-name="Hashtag Research Tool" data-price="49.99">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card" data-category="guides">
+                    <div class="product-image">
+                        <img src="images/product-ebook.jpg" alt="Instagram Growth Guide">
+                    </div>
+                    <div class="product-details">
+                        <h3>Instagram Growth Guide</h3>
+                        <p>Comprehensive 120-page guide with proven strategies to grow your Instagram organically.</p>
+                        <div class="product-price">$29.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="2" data-name="Instagram Growth Guide" data-price="29.99">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card" data-category="templates">
+                    <div class="product-image">
+                        <img src="images/product-templates.jpg" alt="Story Templates Pack">
+                    </div>
+                    <div class="product-details">
+                        <h3>Story Templates Pack</h3>
+                        <p>50 professionally designed Instagram story templates to engage your audience.</p>
+                        <div class="product-price">$19.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="3" data-name="Story Templates Pack" data-price="19.99">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card" data-category="tools">
+                    <div class="product-image">
+                        <img src="images/product-analytics.jpg" alt="Analytics Dashboard">
+                    </div>
+                    <div class="product-details">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Advanced analytics tool to track your growth, engagement, and audience insights.</p>
+                        <div class="product-price">$79.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="4" data-name="Analytics Dashboard" data-price="79.99">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 5 -->
+                <div class="product-card" data-category="guides">
+                    <div class="product-image">
+                        <img src="images/product-content-calendar.jpg" alt="Content Calendar Template">
+                    </div>
+                    <div class="product-details">
+                        <h3>Content Calendar Template</h3>
+                        <p>12-month content planning calendar with strategy guides and post ideas.</p>
+                        <div class="product-price">$24.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="5" data-name="Content Calendar Template" data-price="24.99">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 6 -->
+                <div class="product-card" data-category="templates">
+                    <div class="product-image">
+                        <img src="images/product-feed-templates.jpg" alt="Feed Design Templates">
+                    </div>
+                    <div class="product-details">
+                        <h3>Feed Design Templates</h3>
+                        <p>30 cohesive feed templates to create a stunning Instagram aesthetic.</p>
+                        <div class="product-price">$34.99</div>
+                        <button class="btn btn-primary add-to-cart" data-id="6" data-name="Feed Design Templates" data-price="34.99">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart Modal -->
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>Your Cart</h3>
+                <button class="close-cart" id="close-cart">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <!-- Cart items will be added here dynamically -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cart-total-price">$0.00</span>
+                </div>
+                <button class="btn btn-primary checkout-btn" id="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Transform Your Instagram Presence?</h2>
+            <p>Join hundreds of satisfied clients who have boosted their Instagram growth with our services.</p>
+            <a href="index.html#contact" class="btn btn-primary">Get Started Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Insta<span>Growth</span></h2>
+                    <p>Your Instagram growth partner</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html#home">Home</a></li>
+                            <li><a href="index.html#services">Services</a></li>
+                            <li><a href="index.html#pricing">Pricing</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="index.html#testimonials">Testimonials</a></li>
+                            <li><a href="index.html#about">About</a></li>
+                            <li><a href="index.html#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="index.html#services">Account Management</a></li>
+                            <li><a href="index.html#services">Growth Service</a></li>
+                            <li><a href="index.html#services">Content Creation</a></li>
+                            <li><a href="index.html#services">Instagram Ads</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 InstaGrowth. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
